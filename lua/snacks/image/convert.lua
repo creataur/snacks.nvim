@@ -85,7 +85,7 @@ local commands = {
         args = { "-Z", "continue-on-errors", "--outdir", "{cache}", "{src}" },
       },
       {
-        cmd = "pdflatex",
+        cmd = "lualatex",
         cwd = "{dirname}",
         args = { "-output-directory={cache}", "-interaction=nonstopmode", "{src}" },
       },
